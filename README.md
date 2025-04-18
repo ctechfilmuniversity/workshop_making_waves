@@ -8,4 +8,3 @@ add info on
 
 - how to add content
 
-- test
