@@ -13,7 +13,7 @@ theme = "re-terminal"
   themeColor = "blue"
 
   # if you set this to 0, only submenu trigger will be visible
-  showMenuItems = 2
+  showMenuItems = 6
 
   # show selector to switch language
   showLanguageSelector = false
@@ -36,7 +36,7 @@ theme = "re-terminal"
 
 [languages]
   [languages.en.params]
-    languageName = "English"
+    languageName = "English" 
     title = "Making Waves"
     subtitle = "A workshop series"
     owner = ""
@@ -57,21 +57,28 @@ theme = "re-terminal"
       logoHomeLink = "/"
 
     [languages.en.menu]
-      # Submenus is available since v2.1.0
-      # [[languages.en.menu.main]]
-      #   identifier = "submenuParent"
-      #   name = "Submenu"
-      # [[languages.en.menu.main]]
-      #   parent = "submenuParent"
-      #   identifier = "anItem"
-      #   name = "AnItem"
       [[languages.en.menu.main]]
         identifier = "workshops"
         name = "Workshops"
-        url = "/"
-        weight = 1
+        url = "/categories/workshop"
+        weight = 2
       [[languages.en.menu.main]]
         identifier = "about"
         name = "About"
         url = "/about"
-        weight = 2
+        weight = 6
+      [[languages.en.menu.main]]
+        identifier = "performances"
+        name = "Performances"
+        url = "/categories/performance"
+        weight = 3
+      [[languages.en.menu.main]]
+        identifier = "jams"
+        name = "Jams"
+        url = "/categories/jam"
+        weight = 4
+      [[languages.en.menu.main]]
+        identifier = "visits"
+        name = "Visits"
+        url = "/categories/visit"
+        weight = 5

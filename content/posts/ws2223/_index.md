@@ -1,8 +1,9 @@
 +++
 title = "Making Waves WS22/23"
 date = "2023-01-30"
-author = "Winter"
+author = ""
 hideComments=true
+categories = ["workshop"]
 +++
 
 # MAKING | BREAKING WAVES
