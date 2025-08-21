@@ -5,7 +5,7 @@
       {{ .Content }}
     </div>
   {{ end }}
-  <div class="posts">
+  <div class="posts index-posts">
     {{ $isntDefault := not (or (eq (trim $.Site.Params.contentTypeName "posts") "posts") (eq (trim $.Site.Params.contentTypeName " ") "")) }}
     {{ $contentTypeName := cond $isntDefault (string $.Site.Params.contentTypeName) "posts" }}
 

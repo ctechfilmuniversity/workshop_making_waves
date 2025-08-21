@@ -4,6 +4,7 @@ date = "2023-01-30"
 author = ""
 hideComments=true
 categories = ["workshop"]
+summary = 'This is a quick summary '
 +++
 
 # MAKING | BREAKING WAVES

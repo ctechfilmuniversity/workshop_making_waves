@@ -1,2 +1,5 @@
 baseURL = 'https://ctechfilmuniversity.github.io/workshop_making_waves/'
 #relativeURLs = true
+
+[languages.en.params.logo]
+  logoHomeLink = "/workshop_making_waves/"

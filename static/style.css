@@ -27,3 +27,15 @@
 .post.on-list:first-of-type .post-title {
   margin-top: 0 !important;
 }
+
+.index-posts {
+  @media (min-width: 600px) {
+    column-count: 2;
+    column-gap: 40px;
+    widows: 2;
+  }
+}
+
+.post {
+  break-inside: avoid-column;
+}
